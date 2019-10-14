@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Kalam&display=swap');
+*
+{
+    /* font-family: 'Cuprum', sans-serif; */
+    font-family: 'Kalam', cursive;
+}
+.mynav{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../imgs/instruments2.jpg");
+	background-size: cover;
+}
+
+@media (max-width: 575.98px)
+{
+	.mynav
+	{
+		background-image: url("../imgs/guitar-home.jpg");
+	}
+	#btn-comp
+	{
+		width: 100%;
+	}
+	.nav-link
+	{
+		border: 1px solid white;
+	}
+}
